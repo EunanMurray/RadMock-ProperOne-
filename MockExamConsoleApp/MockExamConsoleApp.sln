@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExamConsoleApp", "MockExamConsoleApp.csproj", "{38D2FAB9-3E8F-464B-B3F2-C1F432E0F560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockClassLibrary", "..\MockClassLibrary\MockClassLibrary.csproj", "{CCE88E4B-6162-4F1C-9F39-8D17A0E79437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockWebApp", "..\MockWebApp\MockWebApp.csproj", "{763D05B7-4003-4EAE-9718-E847DF91B084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D2FAB9-3E8F-464B-B3F2-C1F432E0F560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D2FAB9-3E8F-464B-B3F2-C1F432E0F560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D2FAB9-3E8F-464B-B3F2-C1F432E0F560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D2FAB9-3E8F-464B-B3F2-C1F432E0F560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE88E4B-6162-4F1C-9F39-8D17A0E79437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE88E4B-6162-4F1C-9F39-8D17A0E79437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE88E4B-6162-4F1C-9F39-8D17A0E79437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE88E4B-6162-4F1C-9F39-8D17A0E79437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763D05B7-4003-4EAE-9718-E847DF91B084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763D05B7-4003-4EAE-9718-E847DF91B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763D05B7-4003-4EAE-9718-E847DF91B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763D05B7-4003-4EAE-9718-E847DF91B084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
