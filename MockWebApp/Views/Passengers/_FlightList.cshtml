@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MockClassLibrary.Models.Bookings>
+<div class="card">
+    <div class="card-header">
+        <h4>Flights</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Flight ID</th>
+                    <th>Flight Number</th>
+                    <th>Departure Date</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Country</th>
+                    <th>Max Seats</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var booking in Model)
+                {
+                    <tr>
+                        <td>@booking.Flight.FlightID</td>
+                        <td>@booking.Flight.FlightNumber</td>
+                        <td>@booking.Flight.DepartureDate</td>
+                        <td>@booking.Flight.Origin</td>
+                        <td>@booking.Flight.Destination</td>
+                        <td>@booking.Flight.Country</td>
+                        <td>@booking.Flight.MaxSeats</td>
+                        <td>
+                            <a asp-controller="Flights"
+                               asp-action="Details"
+                               asp-route-id="@booking.FlightID">
+                                View Flight
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

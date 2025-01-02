@@ -73,5 +73,13 @@ namespace MockExamConsoleApp.Data
 
 
         }
+        public FlightContext()
+        {
+
+        }
+
+        public FlightContext(DbContextOptions<FlightContext> options) : base(options)
+        {
+        }
     }
 }

@@ -5,7 +5,7 @@
 namespace MockExamConsoleApp.Migrations
 {
     /// <inheritdoc />
-    public partial class IntialCreate : Migration
+    public partial class IntialCreate3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

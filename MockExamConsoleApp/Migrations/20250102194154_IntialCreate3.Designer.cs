@@ -12,8 +12,8 @@ using MockExamConsoleApp.Data;
 namespace MockExamConsoleApp.Migrations
 {
     [DbContext(typeof(FlightContext))]
-    [Migration("20250102191956_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20250102194154_IntialCreate3")]
+    partial class IntialCreate3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
